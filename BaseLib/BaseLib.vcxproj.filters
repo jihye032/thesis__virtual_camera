@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{5859e8fb-fff9-4690-8495-7cd2d921dd8a}</UniqueIdentifier>
+      <Extensions>*.h;*.cpp</Extensions>
+    </Filter>
+    <Filter Include="FLTKU">
+      <UniqueIdentifier>{a0b1bb96-e0a3-484e-955a-60519bd8eef7}</UniqueIdentifier>
+      <Extensions>*.h;*.cpp</Extensions>
+    </Filter>
+    <Filter Include="PMU">
+      <UniqueIdentifier>{2009ab2a-3966-48fe-8c0e-7035675a9ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{77aacb86-55a5-409c-8e8c-f84841d0789a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CmlExt">
+      <UniqueIdentifier>{303d682f-3d66-436f-89fd-3eb7bbf69691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL4U">
+      <UniqueIdentifier>{0a5148ed-82d5-4f1b-a473-f6025d28b8a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{b75cb80b-bca1-4c36-af1b-94798961f9ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Motion">
+      <UniqueIdentifier>{d4d1de0d-b1a3-4465-ae21-77990a7ee0ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OdeExt">
+      <UniqueIdentifier>{f5898f81-532d-485f-a8d6-f21f1b67758b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{9fc28b91-5ea4-4699-a759-bc5b4e31b064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\fonts">
+      <UniqueIdentifier>{724fb21d-9627-44a1-9d4e-89ed00720d10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Geometry\AABox.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\bezier.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\CatmullRom3f.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\CurveFitting.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\FreeFormedLine.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Line.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\PointSequence.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTKU\AnimationViewer.cpp">
+      <Filter>FLTKU</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTKU\CharacterAnimation.cpp">
+      <Filter>FLTKU</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTKU\Animation.cpp">
+      <Filter>FLTKU</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTKU\AnimationApp.cpp">
+      <Filter>FLTKU</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTKU\AnimationBrowser.cpp">
+      <Filter>FLTKU</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Mesh.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\SolidObject.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\ObjFileToCArrays.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\MeshHemisphere.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\MeshSphere.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\PrimitiveShape.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\MeshHeadModel01.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTKU\AnimationController.cpp">
+      <Filter>FLTKU</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTKU\AnimationControlBox.cpp">
+      <Filter>FLTKU</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinystr.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\PrimitiveCollision.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="CmlExt\CmlExt.cpp">
+      <Filter>CmlExt</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTKU\FL_GLEW_Window.cpp">
+      <Filter>FLTKU</Filter>
+    </ClCompile>
+    <ClCompile Include="CmlExt\CmlCamera.cpp">
+      <Filter>CmlExt</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\GL_VBOVAO.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\GL_Texture.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\GL_Renderer.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\GL_ShaderProgram.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\GL_RenderableObj.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\GL_Material.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\GL_ResourceManager.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\RObjByUsingAssimp.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\Graph.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\Signal1D.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\posture.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\reader.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\body.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\ccml.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\common.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\constraint.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\func.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\motion.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\online_retarget.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="PMU\MlBoundingVolume.cpp">
+      <Filter>PMU</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\CreateMlBodyVBO.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="OdeExt\CollisionWrapper.cpp">
+      <Filter>OdeExt</Filter>
+    </ClCompile>
+    <ClCompile Include="OdeExt\OdeExt.cpp">
+      <Filter>OdeExt</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\MotionContainer.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\PCA.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\MotionDTW.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Curve.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Interpolation.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\GL_FrameBuffer.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\GL_SceneGraph.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\GL_Mesh.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTKU\AnimationTimeController.cpp">
+      <Filter>FLTKU</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\RigidTransf.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\CatmullRomSpline.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\TRS_Transf.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\GL_Font.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLib.cpp" />
+    <ClCompile Include="Algorithm\Optimize1.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\Optimize2.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\IkFullBodyAnalytic.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="CmlExt\CmlPick.cpp">
+      <Filter>CmlExt</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\IkFullBodyNumerical.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion\MlBoundingVolume.cpp">
+      <Filter>Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="GL4U\GL_Character.cpp">
+      <Filter>GL4U</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Geometry\AABox.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\bezier.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\CatmullRom3f.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\CurveFitting.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\FreeFormedLine.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Line.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\PointSequence.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTKU\AnimationBrowser.h">
+      <Filter>FLTKU</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTKU\AnimationBrowserListener.h">
+      <Filter>FLTKU</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTKU\AnimationListener.h">
+      <Filter>FLTKU</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTKU\AnimationViewer.h">
+      <Filter>FLTKU</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTKU\CharacterAnimation.h">
+      <Filter>FLTKU</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTKU\Animation.h">
+      <Filter>FLTKU</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTKU\AnimationApp.h">
+      <Filter>FLTKU</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Mesh.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\SolidObject.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\PrimitiveShape.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTKU\AnimationController.h">
+      <Filter>FLTKU</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTKU\AnimationControlBox.h">
+      <Filter>FLTKU</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinystr.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\PrimitiveCollision.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="CmlExt\CmlExt.h">
+      <Filter>CmlExt</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTKU\FL_GLEW_Window.h">
+      <Filter>FLTKU</Filter>
+    </ClInclude>
+    <ClInclude Include="CmlExt\CmlCamera.h">
+      <Filter>CmlExt</Filter>
+    </ClInclude>
+    <ClInclude Include="GL4U\GL_VBOVAO.h">
+      <Filter>GL4U</Filter>
+    </ClInclude>
+    <ClInclude Include="GL4U\GL_Texture.h">
+      <Filter>GL4U</Filter>
+    </ClInclude>
+    <ClInclude Include="GL4U\GL_Renderer.h">
+      <Filter>GL4U</Filter>
+    </ClInclude>
+    <ClInclude Include="GL4U\GL_ShaderProgram.h">
+      <Filter>GL4U</Filter>
+    </ClInclude>
+    <ClInclude Include="GL4U\GL_RenderableObj.h">
+      <Filter>GL4U</Filter>
+    </ClInclude>
+    <ClInclude Include="GL4U\GL_Material.h">
+      <Filter>GL4U</Filter>
+    </ClInclude>
+    <ClInclude Include="GL4U\GL_ResourceManager.h">
+      <Filter>GL4U</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\Graph.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\Signal1D.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\posture.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\reader.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\body.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\ccml.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\common.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\constraint.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\func.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\ml.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\motion.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\online_retarget.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="PMU\MlBoundingVolume.h">
+      <Filter>PMU</Filter>
+    </ClInclude>
+    <ClInclude Include="OdeExt\CollisionWrapper.h">
+      <Filter>OdeExt</Filter>
+    </ClInclude>
+    <ClInclude Include="OdeExt\OdeExt.h">
+      <Filter>OdeExt</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\MotionContainer.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\PCA.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\MotionDTW.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Curve.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Interpolation.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="GL4U\GL_FrameBuffer.h">
+      <Filter>GL4U</Filter>
+    </ClInclude>
+    <ClInclude Include="GL4U\GL_SceneGraph.h">
+      <Filter>GL4U</Filter>
+    </ClInclude>
+    <ClInclude Include="GL4U\GL_Mesh.h">
+      <Filter>GL4U</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTKU\AnimationTimeListener.h">
+      <Filter>FLTKU</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTKU\AnimationTimeController.h">
+      <Filter>FLTKU</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\RigidTransf.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\CatmullRomSpline.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\TRS_Transf.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="GL4U\GL_Font.h">
+      <Filter>GL4U</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLib.h" />
+    <ClInclude Include="Algorithm\Optimize.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion\MlBoundingVolume.h">
+      <Filter>Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="GL4U\GL_Character.h">
+      <Filter>GL4U</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ToDoList.txt" />
+    <Text Include="Motion\woody.txt">
+      <Filter>Motion</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaders\defalut_fshader.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\defalut_vshader.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\picking_fshader.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\picking_vshader.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\fonts\FreeSans.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

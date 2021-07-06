@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Algorithm\Graph.cpp" />
+    <ClCompile Include="Algorithm\Optimize1.cpp" />
+    <ClCompile Include="Algorithm\Optimize2.cpp" />
+    <ClCompile Include="Algorithm\PCA.cpp" />
+    <ClCompile Include="Algorithm\Signal1D.cpp" />
+    <ClCompile Include="BaseLib.cpp" />
+    <ClCompile Include="CmlExt\CmlCamera.cpp" />
+    <ClCompile Include="CmlExt\CmlExt.cpp" />
+    <ClCompile Include="CmlExt\CmlPick.cpp" />
+    <ClCompile Include="FLTKU\Animation.cpp" />
+    <ClCompile Include="FLTKU\AnimationApp.cpp" />
+    <ClCompile Include="FLTKU\AnimationBrowser.cpp" />
+    <ClCompile Include="FLTKU\AnimationControlBox.cpp" />
+    <ClCompile Include="FLTKU\AnimationController.cpp" />
+    <ClCompile Include="FLTKU\AnimationTimeController.cpp" />
+    <ClCompile Include="FLTKU\AnimationViewer.cpp" />
+    <ClCompile Include="FLTKU\CharacterAnimation.cpp" />
+    <ClCompile Include="FLTKU\FL_GLEW_Window.cpp" />
+    <ClCompile Include="Geometry\AABox.cpp" />
+    <ClCompile Include="Geometry\bezier.cpp" />
+    <ClCompile Include="Geometry\CatmullRom3f.cpp" />
+    <ClCompile Include="Geometry\CatmullRomSpline.cpp" />
+    <ClCompile Include="Geometry\Curve.cpp" />
+    <ClCompile Include="Geometry\CurveFitting.cpp" />
+    <ClCompile Include="Geometry\FreeFormedLine.cpp" />
+    <ClCompile Include="Geometry\Interpolation.cpp" />
+    <ClCompile Include="Geometry\Mesh.cpp" />
+    <ClCompile Include="Geometry\Line.cpp" />
+    <ClCompile Include="Geometry\MeshHeadModel01.cpp" />
+    <ClCompile Include="Geometry\ObjFileToCArrays.cpp" />
+    <ClCompile Include="Geometry\PointSequence.cpp" />
+    <ClCompile Include="Geometry\PrimitiveCollision.cpp" />
+    <ClCompile Include="Geometry\PrimitiveShape.cpp" />
+    <ClCompile Include="Geometry\TRS_Transf.cpp" />
+    <ClCompile Include="Geometry\RigidTransf.cpp" />
+    <ClCompile Include="Geometry\SolidObject.cpp" />
+    <ClCompile Include="Geometry\MeshHemisphere.cpp" />
+    <ClCompile Include="Geometry\MeshSphere.cpp" />
+    <ClCompile Include="GL4U\GL_Character.cpp" />
+    <ClCompile Include="GL4U\GL_FrameBuffer.cpp" />
+    <ClCompile Include="GL4U\GL_Material.cpp" />
+    <ClCompile Include="GL4U\GL_Mesh.cpp" />
+    <ClCompile Include="GL4U\GL_RenderableObj.cpp" />
+    <ClCompile Include="GL4U\GL_Renderer.cpp" />
+    <ClCompile Include="GL4U\GL_ResourceManager.cpp" />
+    <ClCompile Include="GL4U\GL_SceneGraph.cpp" />
+    <ClCompile Include="GL4U\GL_Font.cpp" />
+    <ClCompile Include="GL4U\GL_Texture.cpp" />
+    <ClCompile Include="GL4U\CreateMlBodyVBO.cpp" />
+    <ClCompile Include="GL4U\GL_VBOVAO.cpp" />
+    <ClCompile Include="GL4U\GL_ShaderProgram.cpp" />
+    <ClCompile Include="GL4U\RObjByUsingAssimp.cpp" />
+    <ClCompile Include="Motion\body.cpp" />
+    <ClCompile Include="Motion\ccml.cpp" />
+    <ClCompile Include="Motion\common.cpp" />
+    <ClCompile Include="Motion\constraint.cpp" />
+    <ClCompile Include="Motion\func.cpp" />
+    <ClCompile Include="Motion\IkFullBodyAnalytic.cpp" />
+    <ClCompile Include="Motion\IkFullBodyNumerical.cpp" />
+    <ClCompile Include="Motion\MlBoundingVolume.cpp" />
+    <ClCompile Include="Motion\motion.cpp" />
+    <ClCompile Include="Motion\MotionContainer.cpp" />
+    <ClCompile Include="Motion\MotionDTW.cpp" />
+    <ClCompile Include="Motion\online_retarget.cpp" />
+    <ClCompile Include="Motion\posture.cpp" />
+    <ClCompile Include="Motion\reader.cpp" />
+    <ClCompile Include="OdeExt\CollisionWrapper.cpp" />
+    <ClCompile Include="OdeExt\OdeExt.cpp" />
+    <ClCompile Include="PMU\MlBoundingVolume.cpp" />
+    <ClCompile Include="tinyxml\tinystr.cpp" />
+    <ClCompile Include="tinyxml\tinyxml.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algorithm\Graph.h" />
+    <ClInclude Include="Algorithm\Optimize.h" />
+    <ClInclude Include="Algorithm\PCA.h" />
+    <ClInclude Include="Algorithm\Signal1D.h" />
+    <ClInclude Include="BaseLib.h" />
+    <ClInclude Include="CmlExt\CmlCamera.h" />
+    <ClInclude Include="CmlExt\CmlExt.h" />
+    <ClInclude Include="FLTKU\Animation.h" />
+    <ClInclude Include="FLTKU\AnimationApp.h" />
+    <ClInclude Include="FLTKU\AnimationBrowser.h" />
+    <ClInclude Include="FLTKU\AnimationBrowserListener.h" />
+    <ClInclude Include="FLTKU\AnimationControlBox.h" />
+    <ClInclude Include="FLTKU\AnimationController.h" />
+    <ClInclude Include="FLTKU\AnimationTimeController.h" />
+    <ClInclude Include="FLTKU\AnimationTimeListener.h" />
+    <ClInclude Include="FLTKU\AnimationListener.h" />
+    <ClInclude Include="FLTKU\AnimationViewer.h" />
+    <ClInclude Include="FLTKU\CharacterAnimation.h" />
+    <ClInclude Include="FLTKU\FL_GLEW_Window.h" />
+    <ClInclude Include="Geometry\AABox.h" />
+    <ClInclude Include="Geometry\bezier.h" />
+    <ClInclude Include="Geometry\CatmullRom3f.h" />
+    <ClInclude Include="Geometry\CatmullRomSpline.h" />
+    <ClInclude Include="Geometry\Curve.h" />
+    <ClInclude Include="Geometry\CurveFitting.h" />
+    <ClInclude Include="Geometry\FreeFormedLine.h" />
+    <ClInclude Include="Geometry\Interpolation.h" />
+    <ClInclude Include="Geometry\Mesh.h" />
+    <ClInclude Include="Geometry\Line.h" />
+    <ClInclude Include="Geometry\PointSequence.h" />
+    <ClInclude Include="Geometry\PrimitiveCollision.h" />
+    <ClInclude Include="Geometry\PrimitiveShape.h" />
+    <ClInclude Include="Geometry\TRS_Transf.h" />
+    <ClInclude Include="Geometry\RigidTransf.h" />
+    <ClInclude Include="Geometry\SolidObject.h" />
+    <ClInclude Include="GL4U\GL_Character.h" />
+    <ClInclude Include="GL4U\GL_FrameBuffer.h" />
+    <ClInclude Include="GL4U\GL_Material.h" />
+    <ClInclude Include="GL4U\GL_Mesh.h" />
+    <ClInclude Include="GL4U\GL_RenderableObj.h" />
+    <ClInclude Include="GL4U\GL_Renderer.h" />
+    <ClInclude Include="GL4U\GL_ResourceManager.h" />
+    <ClInclude Include="GL4U\GL_SceneGraph.h" />
+    <ClInclude Include="GL4U\GL_Font.h" />
+    <ClInclude Include="GL4U\GL_Texture.h" />
+    <ClInclude Include="GL4U\GL_VBOVAO.h" />
+    <ClInclude Include="GL4U\GL_ShaderProgram.h" />
+    <ClInclude Include="Motion\body.h" />
+    <ClInclude Include="Motion\ccml.h" />
+    <ClInclude Include="Motion\common.h" />
+    <ClInclude Include="Motion\constraint.h" />
+    <ClInclude Include="Motion\func.h" />
+    <ClInclude Include="Motion\ml.h" />
+    <ClInclude Include="Motion\MlBoundingVolume.h" />
+    <ClInclude Include="Motion\motion.h" />
+    <ClInclude Include="Motion\MotionContainer.h" />
+    <ClInclude Include="Motion\MotionDTW.h" />
+    <ClInclude Include="Motion\online_retarget.h" />
+    <ClInclude Include="Motion\posture.h" />
+    <ClInclude Include="Motion\reader.h" />
+    <ClInclude Include="OdeExt\CollisionWrapper.h" />
+    <ClInclude Include="OdeExt\OdeExt.h" />
+    <ClInclude Include="PMU\MlBoundingVolume.h" />
+    <ClInclude Include="tinyxml\tinystr.h" />
+    <ClInclude Include="tinyxml\tinyxml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Motion\woody.txt" />
+    <Text Include="ToDoList.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\fonts\FreeSans.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaders\defalut_fshader.glsl" />
+    <None Include="Resources\shaders\defalut_vshader.glsl" />
+    <None Include="Resources\shaders\picking_fshader.glsl" />
+    <None Include="Resources\shaders\picking_vshader.glsl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E38929C6-1546-4CFC-A160-6FDD400FF832}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MGBaseCode</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)lib\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Lib\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>GLEW_STATIC;WIN32;_DEBUG;_CONSOLE;FL_DLL;FL_INTERNALS;ODE_EXT;dDOUBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../;./;../Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(OutDir)$(TargetName)d$(TargetExt)</OutputFile>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)d$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>GLEW_STATIC;WIN32;NDEBUG;_CONSOLE;FL_DLL;FL_INTERNALS;ODE_EXT;dDOUBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../;./;../Include;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../Lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>freetype28.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../Lib</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
